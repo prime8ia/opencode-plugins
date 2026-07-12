@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-plugins",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monorepo de plugins do opencode (imoveis, mercado, devtools).",
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "npm@11.13.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean --no-cache && node -e \"require('node:fs').rmSync('.turbo',{recursive:true,force:true})\"",
+    "publish:all": "npm publish --workspaces --access public"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.17.8",
+    "@types/node": "24.12.2",
+    "turbo": "2.10.4",
+    "typescript": "5.8.2"
+  }
+}

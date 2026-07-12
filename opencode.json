@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "D:/Documentos/Tecnologia/IA/Claude/Claude Code/Robos/opencode-plugins/packages/imoveis",
+    [
+      "D:/Documentos/Tecnologia/IA/Claude/Claude Code/Robos/opencode-plugins/packages/mercado",
+      { "base": "https://api.binance.com" }
+    ],
+    "D:/Documentos/Tecnologia/IA/Claude/Claude Code/Robos/opencode-plugins/packages/devtools"
+  ]
+}
