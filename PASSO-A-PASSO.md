@@ -100,8 +100,18 @@ git push -u origin main
 
 ### 3.B npm (instalável por qualquer um — PÚBLICO)
 
+> ✅ **FEITO em 11 07 2026** — os 3 pacotes estão publicados em v0.1.0 pela conta
+> `prime8.ia` (2FA ativado, exigido pelo npm p/ publicar):
+> - <https://www.npmjs.com/package/opencode-plugin-imoveis>
+> - <https://www.npmjs.com/package/opencode-plugin-mercado>
+> - <https://www.npmjs.com/package/opencode-plugin-devtools>
+>
+> Config em qualquer máquina agora é só:
+> `{ "plugin": ["opencode-plugin-imoveis", "opencode-plugin-mercado", "opencode-plugin-devtools"] }`
+>
+> Os passos abaixo ficam como referência p/ novas versões/pacotes.
+
 ⚠️ Publicar no npm é **público e permanente** (unpublish restrito a 72 h).
-Os 3 nomes estavam **livres** em 11 07 2026.
 
 1. Conta: <https://www.npmjs.com/signup> (se não tiver)
 2. Login na máquina (abre o navegador para autenticar):
